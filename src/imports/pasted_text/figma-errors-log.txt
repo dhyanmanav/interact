@@ -1,0 +1,92 @@
+ at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54Understand this warning
+ WebSocket connection to 'wss://app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/' failed: 
+ping @ app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/@vite/client:1035Understand this error
+ WebSocket connection to 'wss://app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/' failed: 
+ping @ app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/@vite/client:1035Understand this error
+ WebSocket connection to 'wss://app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/' failed: 
+ping @ app-6lkzurbud6a4mf75co5knuk3mv42k6zpc6auwt6udgeyrpu4shj7.makeproxy-c.figma.site/@vite/client:1035Understand this error
+/make/AFjhp1arz2tVzlath2AZRo/Fix-errors-and-optimize?p=f&t=3yGhXH1FcCGLmzxq-0&preview-route=%2Fsuccess:1 Access to image at 'https://www.gravatar.com/avatar/3a182492aec1f60c6605ca886dcc6dff?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_d_v2.png?c=1' from origin 'https://www.figma.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.Understand this error
+www.gravatar.com/avatar/3a182492aec1f60c6605ca886dcc6dff?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_d_v2.png?c=1:1  Failed to load resource: net::ERR_FAILEDUnderstand this error
+devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:1190 [esbuild-wasm] Initialized
+devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:2018 [esbuild] Build error: Error: Build failed with 1 error:
+virtual-fs:file:///src/app/utils/api.ts:1:41: ERROR: Could not resolve "/utils/supabase/info"
+    at Z (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:8:5768)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23008
+    at y (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:17720)
+    at G (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:22961)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23116
+    at new Promise (<anonymous>)
+    at c.on-end (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23100)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:10232
+    at Generator.next (<anonymous>)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:3:376
+(anonymous) @ devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:2018Understand this error
+devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:3254 Error: Build failed with 1 error:
+virtual-fs:file:///src/app/utils/api.ts:1:41: ERROR: Could not resolve "/utils/supabase/info"
+    at Z (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:8:5768)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23008
+    at y (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:17720)
+    at G (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:22961)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23116
+    at new Promise (<anonymous>)
+    at c.on-end (devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:23100)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:676:10232
+    at Generator.next (<anonymous>)
+    at devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:3:376
+m5 @ devtools_worker-e6d441e5976f70c1.min.js.br:sourcemap:3254Understand this error
+/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/93e43594561615b837624410ffe068680e430335064389eaeaee33ea819c40b1:1  Failed to load resource: the server responded with a status of 404 ()Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54 Failed to fetch snapshot files: T: XHR for "/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/93e43594561615b837624410ffe068680e430335064389eaeaee33ea819c40b1" failed with status 404
+    at N (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11227)
+    at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54Understand this warning
+events.statsigapi.net/v1/rgstr:1  Failed to load resource: net::ERR_CONNECTION_CLOSEDUnderstand this error
+/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/bc1670aa3f05c83898a6fa93e1a74a9a58f4e3758daa214827e13543acf48ef5:1  Failed to load resource: the server responded with a status of 404 ()Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54 Failed to fetch snapshot files: T: XHR for "/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/bc1670aa3f05c83898a6fa93e1a74a9a58f4e3758daa214827e13543acf48ef5" failed with status 404
+    at N (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11227)
+    at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54Understand this warning
+/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/319faef60b8af856aeb8e5be5ef4e515e5bfdb40234d63282266e2e56bd2937f:1  Failed to load resource: the server responded with a status of 404 ()Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54 Failed to fetch snapshot files: T: XHR for "/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/319faef60b8af856aeb8e5be5ef4e515e5bfdb40234d63282266e2e56bd2937f" failed with status 404
+    at N (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11227)
+    at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54Understand this warning
+/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/89e0986225e6dfa9cc58334d6cced3f478864ebb94b63ae17f4962d0b12e88e0:1  Failed to load resource: the server responded with a status of 404 ()Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54 Failed to fetch snapshot files: T: XHR for "/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/89e0986225e6dfa9cc58334d6cced3f478864ebb94b63ae17f4962d0b12e88e0" failed with status 404
+    at N (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11227)
+    at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54Understand this warning
+/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/fe7e4440ad700ebb98341192c43b252839b3457fa82b34a41f75ff3e341cd724:1  Failed to load resource: the server responded with a status of 404 ()Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:sourcemap:54 Failed to fetch snapshot files: T: XHR for "/api/rev/AFjhp1arz2tVzlath2AZRo/code_snapshot/fe7e4440ad700ebb98341192c43b252839b3457fa82b34a41f75ff3e341cd724" failed with status 404
+    at N (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11227)
+    at async Object.R [as get] (8469-f47411c60eb019a8.min.js.br:sourcemap:1405:11610)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:23483
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:73415
+    at async 6386-3ca6970ce49481c8.min.js.br:sourcemap:3:447
+    at async b (8275-a1a784772be40624.min.js.br:sourcemap:3:72835)
+    at async 8275-a1a784772be40624.min.js.br:sourcemap:3:63487

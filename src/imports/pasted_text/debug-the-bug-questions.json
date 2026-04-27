@@ -1,0 +1,295 @@
+AI
+Design a modern, high-impact web application UI for a competitive coding event called "DEBUG THE BUG".
+
+THEME:
+- Dark theme (black + deep navy background)
+- Neon accents (cyan, electric blue, subtle yellow)
+- Futuristic / hacker vibe
+- Clean, minimal but intense (like a coding competition platform)
+
+----------------------------------
+
+AUTH SYSTEM (IMPORTANT LOGIC UI):
+
+1. LOGIN PAGE:
+- Fields:
+  - Email
+  - Password
+- Button: "Enter Arena"
+- Small text: "Authorized participants only"
+
+2. SIGN UP PAGE:
+- Fields:
+  - Email
+  - Password
+  - Access Code (MANDATORY)
+- Only allow signup if code = "interact2026"
+- Show error UI: "Invalid access code"
+
+- After signup:
+  - Show success: "Credentials generated. Use them to login."
+
+----------------------------------
+
+ADMIN ACCESS (NO SIGNUP):
+
+- Admin login page (separate or hidden entry)
+- Predefined credentials:
+  Email: dhyan@gmail.com
+  Password: 12345678
+
+----------------------------------
+
+POST-LOGIN EXPERIENCE (VERY IMPORTANT):
+
+DASHBOARD UI:
+- Fullscreen locked interface
+- No navbar to exit
+- Timer always visible (top right)
+- Warning banner:
+  "Leaving this page will result in disqualification"
+
+- Sections:
+  - Instructions panel
+  - Start Test button
+
+----------------------------------
+
+TEST INTERFACE:
+
+- Fullscreen coding test UI
+- Left side: Question panel
+- Right side: Answer input / code editor style box
+- Top:
+  - Timer countdown
+  - Progress tracker (Question X / 40)
+
+- Navigation:
+  - Next / Previous buttons
+  - Locked progression option (configurable)
+
+- Anti-exit UX:
+  - Blur overlay warning if user tries to switch tab
+  - Popup:
+    "You are leaving the test. This will auto-submit."
+
+----------------------------------
+
+QUESTION DESIGN UI:
+
+- Card-style question display
+- Sections:
+  - Title
+  - Code snippet (monospace, syntax highlighted)
+  - Input/Output
+  - Task
+
+----------------------------------
+
+SUBMISSION FLOW:
+
+- Submit button (fixed bottom right)
+- Confirmation modal:
+  "Are you sure? You cannot re-enter."
+
+- After submit:
+  - Show:
+    "Submission Successful"
+    "Results will be evaluated"
+
+----------------------------------
+
+ADMIN DASHBOARD:
+
+- Clean analytics UI
+- Sections:
+  1. Participants List
+     - Name
+     - Email
+     - Status (Active / Submitted / Disqualified)
+
+  2. Live Monitoring:
+     - Who is currently in test
+     - Time remaining
+
+  3. Results:
+     - Scores
+     - Rankings
+     - Completion time
+
+  4. Controls:
+     - Start / Stop test
+     - Disqualify participant
+     - View answers
+
+----------------------------------
+
+EXTRA FEATURES (IMPORTANT):
+
+- Fullscreen immersive design (no distractions)
+- Subtle animations (loading, transitions)
+- Hacker-style typography for headings
+- Glow effects on buttons
+- Terminal-inspired UI elements
+
+----------------------------------
+
+DESIGN STYLE REFERENCES:
+
+- Hackathon platforms
+- LeetCode + HackerRank hybrid
+- Cybersecurity competition UI
+
+----------------------------------
+
+OUTPUT:
+
+- Complete UI screens:
+  - Login
+  - Signup
+  - Dashboard
+  - Test Interface
+  - Submission Page
+  - Admin Panel
+
+- Maintain consistent design system:
+  - Colors
+  - Typography
+  - Components
+
+Make it feel like a high-stakes competitive event platform that builds pressure and excitement. responsive too
+
+questions for round 1 set A:
+{
+  "round": "Round 1 - Core Logic Bugs",
+  "set": "Set A",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Off-by-One Slice",
+      "difficulty": "Hard",
+      "language": "Python",
+      "code": "def get_last_elements(arr, k):\n    return arr[-k+1:]\n\nprint(get_last_elements([1,2,3,4,5], 2))",
+      "input": "[1,2,3,4,5], k=2",
+      "output": "[5]",
+
+      "bug_type": "OFF_BY_ONE",
+
+      "options": [
+        "Use arr[-k:]",
+        "Use arr[k:]",
+        "Use arr[:-k]",
+        "No issue in code"
+      ],
+
+      "correct_answer": 0,
+      "points": 10
+    },
+
+    {
+      "id": 2,
+      "title": "Mutable Default Trap",
+      "difficulty": "Hard",
+      "language": "Python",
+      "code": "def add_item(item, lst=[]):\n    lst.append(item)\n    return lst\n\nprint(add_item(1))\nprint(add_item(2))",
+      "input": "1,2",
+      "output": "[1] then [1,2]",
+
+      "bug_type": "MUTABLE_DEFAULT",
+
+      "options": [
+        "Use lst=None and initialize inside function",
+        "Use global variable",
+        "Use tuple instead of list",
+        "No issue"
+      ],
+
+      "correct_answer": 0,
+      "points": 10
+    },
+
+    {
+      "id": 3,
+      "title": "Integer Division Loss",
+      "difficulty": "Hard",
+      "language": "Java",
+      "code": "int a = 5;\nint b = 2;\ndouble result = a/b;\nSystem.out.println(result);",
+      "input": "5/2",
+      "output": "2.0",
+
+      "bug_type": "TYPE_CAST",
+
+      "options": [
+        "Cast one operand to double",
+        "Change int to float",
+        "Multiply by 1",
+        "No issue"
+      ],
+
+      "correct_answer": 0,
+      "points": 10
+    },
+
+    {
+      "id": 4,
+      "title": "Infinite Loop Trap",
+      "difficulty": "Hard",
+      "language": "C++",
+      "code": "int i = 0;\nwhile(i < 10) {\n    cout << i;\n    i = i++;\n}",
+
+      "input": "None",
+      "output": "Infinite loop",
+
+      "bug_type": "INCREMENT_ERROR",
+
+      "options": [
+        "Replace i = i++ with i++",
+        "Use i--",
+        "Change while to for loop",
+        "No issue"
+      ],
+
+      "correct_answer": 0,
+      "points": 10
+    },
+
+    {
+      "id": 5,
+      "title": "Falsy Value Bug",
+      "difficulty": "Hard",
+      "language": "JavaScript",
+      "code": "function check(val){\n    if(val){\n        return \"Valid\";\n    }\n    return \"Invalid\";\n}\nconsole.log(check(0));",
+
+      "input": "0",
+      "output": "Invalid",
+
+      "bug_type": "FALSY_VALUE",
+
+      "options": [
+        "Check val !== null && val !== undefined",
+        "Use == instead of ===",
+        "Convert to string",
+        "No issue"
+      ],
+
+      "correct_answer": 0,
+      "points": 10
+    }
+  ]
+}
+
+
+update the score after user submits to the admin and then only he can leave the website else auto submit
+
+{
+  "user": "abc@gmail.com",
+  "answers": [0,1,0,2,0],
+  "score": 40,
+  "time_taken": 1200,
+  "status": "submitted"
+}
+
+THE MAIN FEST IS: INTERACT 2026
+THE MEGA TITLE IS THAT
+theme not too phunky
+clear too
